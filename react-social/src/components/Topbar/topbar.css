@@ -1,0 +1,104 @@
+.topbar{
+    height: 50px;
+    width: 100%;
+    background-color: #1877f2;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.topbar_left{
+    flex: 3;
+    display:flex;
+    min-width: 150px;
+}
+
+.topbar_leftLogo{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: 'Pacifico';
+}
+
+
+.topbar_center{
+    flex: 5;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-left: 20px;
+    min-width: 40px;
+}
+.topbar_centerSearchbar{
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.topbar_centerInputSearch{
+    border: none;
+    width: 90%;
+
+}
+.topbar_centerInputSearch:focus{
+    outline: none;
+}
+.topbar_centerSearchIcon{
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+
+
+
+.topbar_right{
+    flex: 4;
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.topbar_rightLinks{
+    margin-left: 15px;
+}
+.topbar_rightLinksItems{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.topbar_rightIcons{
+    display: flex;
+    
+}
+.topbar_rightIconsItems{
+    display: flex;
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;    
+}
+.topbar_rightIconsBage{
+    height: 10px;
+    width: 10px;
+    font-size: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.topbar_rightImg{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}

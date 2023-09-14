@@ -1,0 +1,90 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+.register_div{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    
+}
+
+.register_left{
+    display: flex;
+    flex-direction: column;
+    flex: .5;
+    justify-content: center;
+    padding: 20px;
+}
+.register_logoTitle{
+    font-size: 50px;
+    font-weight: 800;
+    color: #3B5999;
+    font-family: 'Pacifico';
+}
+.register_tagline{
+    font-size: 30px;
+    font-weight: 500;
+    color: #8497BF;
+}
+
+.register_right{
+    display: flex;
+    flex: .5;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.register_inputEmail,.register_inputPassword,.register_username{
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid grey;
+    padding: 10px;
+}:focus{
+    outline: none;
+}
+
+
+
+.register_forgotPassword{
+    text-align: center;
+    color: #8497BF;
+    cursor: pointer;
+}
+
+
+.signUp_button{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    background-color:#3B5999 ;
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.register_loginButton{
+    width: 50%;
+    align-self: center;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    background-color: green ;
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
